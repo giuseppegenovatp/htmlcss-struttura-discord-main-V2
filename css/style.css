@@ -166,7 +166,7 @@ footer {
 }
 
 .footer_row {
-    flex-grow: 2;
+    flex: 1;
 }
 
 .container-footer_nav {
