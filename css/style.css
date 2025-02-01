@@ -19,7 +19,7 @@ UTILITIES
     background-color:#d3d3d3;
 }
 
-.padding-top-bot {
+.padding-top-bot-50 {
     padding-top:50px;
     padding-bottom:50px;
 }
@@ -114,7 +114,7 @@ nav.container > div {
 .main_box {
     background-color:#ee82ee ;
     height: 400px;
-    width: 900px;
+    width: 70%;
     margin: 0 auto;
  }
 
@@ -139,8 +139,46 @@ nav.container > div {
 
 .big_box {
     background-color: #228b22;
-    height: 900px
+    height:895px
+}
+/***** fine Section  *****/
+
+/***** inizio Foteer  *****/
+footer {
+    background-color:#23272a ;
+    border-bottom: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 40px;
 }
 
+.footer-container {
+    display: flex;
+}
 
-/***** fine Section  *****/
+.big_box_footer {
+     background-color:#f08080;
+     height: 550px;
+}
+
+.row_box_footer {
+    display: flex;
+    background-color:#20b2aa ;
+}
+
+.footer_row {
+    flex-grow: 2;
+}
+
+.container-footer_nav {
+    background-color:#23272a;
+    padding-top: 30px;
+}
+
+.footer_nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7fffd4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/***** fine FOteer  *****/
