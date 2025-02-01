@@ -5,9 +5,17 @@
 }
 
 
+
+/*********
+UTILITIES
+************/
 .container {
     width: 70%;
     margin: 0 auto;
+}
+
+.bg_blue {
+    background-color:#00008b ;
 }
 
 /*****
@@ -68,3 +76,16 @@ nav.container > div {
 
 /***** FINE HEADER * *****/
 
+
+
+/***** inizio Section  *****/
+
+.first_section {
+
+}
+
+.main_box {
+    background-color:#ee82ee ;
+}
+
+/***** fine Section  *****/
