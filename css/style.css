@@ -52,6 +52,10 @@ nav.debug > div {
     border: 2px dotted black;
  }
 
+ .big_content_box {
+    background-color: #228b22;
+    height:895px
+}
 
 /***** DEBUG  *****/
 
@@ -107,14 +111,15 @@ nav.container > div {
 
 
 /***** inizio Section  *****/
-.first_section {
-    padding:50px;
+.hero-section {
+    padding-top:40px;
+    padding-bottom:40px;
 }
 
-.main_box {
+.hero-section-box {
     background-color:#ee82ee ;
     height: 400px;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
  }
 
@@ -122,25 +127,20 @@ nav.container > div {
     display: flex;
  }
 
- .large_box {
+ .large_content_box {
     background-color: #1e90ff;
     flex: 3;
  }
 
- .small_box {
+ .small_content_box {
     background-color: #ffc0cb;
     flex: 2;
  }
 
- .reverse {
+ .reverse-order {
     order:1;
  }
 
-
-.big_box {
-    background-color: #228b22;
-    height:895px
-}
 /***** fine Section  *****/
 
 /***** inizio Foteer  *****/
